@@ -1,0 +1,482 @@
+
+/* styling for mobile */
+
+@media screen and (max-width: 912px){	
+	.navbar { 
+		background-color: black;
+		font-family: "Whitney";
+		font-size: 27px;
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+		clear: none;
+		width: 100%;
+
+	}
+
+	.navbar ul {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding:10px;
+		
+	}
+	.navbar a {
+		text-decoration: none;
+		color: white;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.navbar a:hover {
+        text-decoration: none;
+        font-weight: semi-bold;
+        color: #298fce;
+      }
+
+	.navbar li {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		border-style: solid;
+		border-color: #298fce;
+		padding: 20px;
+		
+	}
+
+	.navbar img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 15px;
+				
+	}
+
+	.search-area {
+		background-color: #298fce;
+		font-family: "Whitney";
+		color: white;
+		text-align: center;
+		display: block;
+		float: left;
+		clear: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-bottom: 60px;
+	}
+
+	.search-area h1 {
+	padding-top: 35px;
+	font-size: 60px;
+	}
+	.search-area h2 {
+	font-size: 45px;
+	}
+
+
+	.search-area input {
+		background-color: white;
+		font-family: "Whitney";
+		color: #d4d5d6;
+		text-align: left;
+		margin top: 20px;
+		height: 40px;
+		min-width: 400px;
+		max-width: 870px;
+		font-size: 20px;
+	}
+
+	.doc-categories {
+		background-color: #d4d5d6;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		font-family: "Whitney";
+		float: left;
+		clear: none;
+		border-style: solid;
+		border-color: black;
+		border-top-width: 0px;
+		border-left-width: 0px;
+		border-right-width: 0px; 
+		width: 100%;
+
+
+	}
+
+	.doc-categories img {
+		background-color: #F8F8F8;
+
+	}
+
+	.footer { 
+		background-color: black;
+		font-family: "Whitney";
+		font-size: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+		clear: none;
+		width: 100%;
+
+	}
+
+	.footer ul {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding:10px;
+		
+	}
+	.footer a {
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.footer a:hover {
+        text-decoration: none;
+        font-weight: semi-bold;
+        color: #298fce;
+      }
+
+	.footer li {
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 5 px;	
+		color: white;	
+	}
+
+}
+
+/* styling for tablets and small computer screens */
+
+@media screen and (min-width: 913px) and (max-width: 1200px){
+
+	.navbar { 
+		background-color: black;
+		font-family: "Whitney";
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+		clear: none;
+		width: 100%;
+		display: flex;
+  		justify-content: center;
+  		align-items: center;
+	}
+
+	.navbar img {
+		padding: 5px;
+		width: auto;
+		height:auto;
+	}
+
+	.navbar ul {
+		
+		text-align: center;
+		padding:10px;
+		
+	}
+	.navbar a {
+		text-decoration: none;
+		color: white;
+		display: inline-table;
+		text-align: center;
+	}
+
+	.navbar a:hover {
+        text-decoration: none;
+        font-weight: semi-bold;
+        color: #298fce;
+      }
+
+	.navbar li {
+		display: inline-table;
+		padding: 10px;
+		
+	}
+
+	.search-area {
+		background-color: #298fce;
+		font-family: "Whitney";
+		color: white;
+		text-align: center;
+		display: block;
+		float: left;
+		clear: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-bottom: 60px;
+	}
+
+	.search-area h1 {
+	padding-top: 35px;
+	font-size: 72px;
+	}
+
+	.search-area h2 {
+	font-size: 50px;
+	}
+
+	.search-area input {
+		background-color: white;
+		font-family: "Whitney";
+		color: #d4d5d6;
+		text-align: left;
+		margin top: 20px;
+		height: 40px;
+		min-width: 600px;
+		max-width: 100px;
+		font-size: 27px;
+	}
+
+	.doc-categories {
+		background-color: #d4d5d6;
+		display: inline-table;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		font-family: "Whitney";
+		float: left;
+		clear: none;
+		width: 100%;
+		border-style: solid;
+		border-color: black;
+		border-top-width: 0px;
+		border-left-width: 0px;
+		border-right-width: 0px; 
+		justify-content: center;
+		align-items: center;
+	}
+
+	.doc-categories h3 {
+		text-align: left;
+		padding-left: 200px;
+	}
+
+	.doc-categories p {
+		text-align: left;
+		padding-left: 200px;
+	}
+
+	.doc-categories img {
+		background-color: #F8F8F8;
+		display:inline-block;
+		float: left;
+		margin-left: 125px;
+		margin-right: auto;
+
+	}
+
+	.footer { 
+		background-color: black;
+		font-family: "Whitney";
+		font-size: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+		clear: none;
+		width: 100%;
+
+	}
+
+	.footer ul {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding:10px;
+		
+	}
+	.footer a {
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.footer a:hover {
+        text-decoration: none;
+        font-weight: semi-bold;
+        color: #298fce;
+      }
+
+	.footer li {
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 5 px;	
+		color: white;	
+	}
+
+}
+
+/* styling for bigger computer screens */
+
+@media screen and (min-width: 1200px){
+
+	.navbar { 
+		background-color: black;
+		font-family: "Whitney";
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.navbar img {
+		display: block; 
+		float: left;
+		margin-top: 25px;
+		padding-left: 10px;
+
+
+	}
+
+	.navbar ul {
+		display: inline;
+		text-align: right;
+		padding:10px;
+		float: right;
+	}
+	.navbar a {
+		text-decoration: none;
+		font-weight: semi-bold;
+		color: white;
+		display: inline;
+		text-align: right;
+		float: right;
+	}
+
+	.navbar a:hover {
+        text-decoration: none;
+        font-weight: semi-bold;
+        color: #298fce;
+        text-align:right;
+      }
+
+	.navbar li {
+		display: inline;
+		padding: 10px;
+		text-align: right;
+		float: right;
+	}
+
+	.search-area {
+		background-color: #298fce;
+		font-family: "Whitney";
+		color: white;
+		text-align: center;
+		display: block;
+		float: left;
+		clear: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding-bottom: 60px;
+	}
+
+	.search-area h1 {
+	padding-top: 25px;
+	font-size: 72px;
+	}
+
+	.search-area h2 {
+	font-size: 50px;
+	}
+
+	.search-area input {
+		background-color: white;
+		font-family: "Whitney";
+		color: #d4d5d6;
+		text-align: left;
+		margin top: 20px;
+		height: 60px;
+		min-width: 900px;
+		max-width: 1100px;
+		font-size: 20px;
+	}
+
+	.doc-categories {
+		background-color: #d4d5d6;
+		display: table-row-group;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		font-family: "Whitney";
+		float: left;
+		clear: none;
+		width:33.3%;
+		height:300px;
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+
+	.doc-categories img {
+		background-color: #F8F8F8;
+
+	}
+
+	.doc-categories p {
+		padding-right:10px;
+		padding-left: 10px;
+	}
+
+	.footer { 
+		background-color: black;
+		font-family: "Whitney";
+		font-size: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+		clear: none;
+		width: 100%;
+
+	}
+
+	.footer ul {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		padding:10px;
+		
+	}
+	.footer a {
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.footer a:hover {
+        text-decoration: none;
+        font-weight: semi-bold;
+        color: #298fce;
+      }
+
+	.footer li {
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 5 px;	
+		color: white;	
+	}
+
+}
